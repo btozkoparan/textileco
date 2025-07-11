@@ -1,0 +1,133 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="tr" class="contact">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>İletişim | Textil Co.</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <a href="index.html" style="text-decoration: none"
+                ><div class="logo">Textile Co.</div></a
+            >
+            <!-- Menü Butonu (Mobil İçin) -->
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html"
+                            ><i class="fas fa-home"></i>
+                            <span>Ana Sayfa</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            ><i class="fas fa-info-circle"></i>
+                            <span>Hakkımızda</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="brands.html"
+                            ><i class="fas fa-tags"></i>
+                            <span>Markalar</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="production.html"
+                            ><i class="fas fa-industry"></i>
+                            <span>Üretim</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="sustainability.html"
+                            ><i class="fas fa-leaf"></i>
+                            <span>Sürdürülebilirlik</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="career.html"
+                            ><i class="fas fa-user-tie"></i>
+                            <span>Kariyer</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="news.html"
+                            ><i class="fas fa-newspaper"></i>
+                            <span>Haberler</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            ><i class="fas fa-envelope"></i>
+                            <span>İletişim</span></a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>İletişim</h1>
+                <p>
+                    Bize ulaşmak için formu doldurabilir veya e-posta
+                    gönderebilirsiniz.
+                </p>
+            </section>
+            <section class="page-content contact-flex">
+                <div class="contact-overlay">
+                    <form
+                        action="mailto:ornek@mail.com"
+                        method="post"
+                        enctype="text/plain"
+                    >
+                        <label for="name">Adınız:</label><br />
+                        <input type="text" id="name" name="name" /><br />
+                        <label for="email">E-posta:</label><br />
+                        <input type="email" id="email" name="email" /><br />
+                        <label for="message">Mesajınız:</label><br />
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                        ></textarea
+                        ><br />
+                        <input type="submit" value="Gönder" />
+                    </form>
+                    <div class="contact-info">
+                        <h2>Adres:</h2>
+                        <p>
+                            Textile Co.<br />Çukurova Organize Sanayi Bölgesi,
+                            Adana, Türkiye
+                        </p>
+                        <p>
+                            <strong>Telefon:</strong> +90 (322) 000 00 00<br />
+                            <strong>E-posta:</strong> info@textileco.com<br />
+                            <strong>İK Başvuruları:</strong> hr@textileco.com
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2025 Textil Co. | Tüm hakları saklıdır.</p>
+            <div class="footer-contact">
+                <strong>Adres:</strong> Çukurova Organize Sanayi Bölgesi, Adana,
+                Türkiye<br />
+                <strong>Telefon:</strong> +90 (322) 000 00 00<br />
+                <strong>E-posta:</strong> info@textileco.com<br />
+                <strong>İK Başvuruları:</strong> hr@textileco.com
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
